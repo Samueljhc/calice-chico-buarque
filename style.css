@@ -27,11 +27,12 @@ body {
 
 p {
     text-align: justify;
+    padding: 0px 5px;
+    line-height: 1.5em;
 }
 
 a {
     text-decoration: none;
-    color: white;
 }
 
 h2 {
@@ -47,16 +48,26 @@ header {
     padding: 10px;
 }
 
-header  p {
-    font-weight: bold;
-    font-size: 1em;
-    text-align: center;
-}
-
 header > h1 {
     font-family: var(--fonte2);
     font-weight: bolder;
     font-size: 3em;
+    text-shadow: 2px 2px 4px black;;
+}
+
+header  p {
+    font-weight: bold;
+    font-size: 1em;
+    text-align: center;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.315);;
+}
+
+header a {
+    color: white;
+}
+
+header a:hover {
+    color: var(--cor2);
 }
 
 main {
@@ -64,4 +75,60 @@ main {
     min-width: 300px;
     margin: auto;
     background-color: var(--cor2);
+    border-radius: 0px 0px 15px 15px;
+}
+
+main p {
+    text-indent: 10px;
+}
+
+main a {
+    color: black;
+    font-weight: bold;
+}
+
+main a:hover {
+    color: var(--cor4);
+}
+
+div > img {
+    margin: auto;
+    padding: 20px;
+    display: block;
+    max-width: 700px;
+    min-width: 300px;
+}
+
+div.video {
+    background-color: var(--cor2);
+    position: relative;
+    height: 0%;
+    padding-bottom: 60%;
+}
+
+div.video > iframe {
+    position: absolute;
+    top: 5%;
+    left: 5%;
+    width: 90%;
+    height: 90%;
+}
+
+footer {
+    background-color: var(--cor4);
+    color: white;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+footer p {
+    text-align: center;
+}
+
+footer a {
+    color: white;
+}
+
+footer a:hover {
+    color: var(--cor2);
 }
