@@ -71,8 +71,7 @@ header a:hover {
 }
 
 main {
-    max-width: 800px;
-    min-width: 300px;
+    
     margin: auto;
     background-color: var(--cor2);
     border-radius: 0px 0px 15px 15px;
@@ -89,14 +88,6 @@ main a {
 
 main a:hover {
     color: var(--cor4);
-}
-
-div > img {
-    margin: auto;
-    padding: 20px;
-    display: block;
-    max-width: 700px;
-    min-width: 300px;
 }
 
 div.video {
