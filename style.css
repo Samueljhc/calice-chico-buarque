@@ -27,7 +27,7 @@ body {
 
 p {
     text-align: justify;
-    padding: 0px 5px;
+    padding: 0px 10px;
     line-height: 1.5em;
 }
 
@@ -81,7 +81,7 @@ main {
 main img {
     margin: auto;
     padding: 20px;
-    display: block;
+    display: inline-block;
 }
 
 main p {
