@@ -78,12 +78,6 @@ main {
     min-width: 300px;
 }
 
-main img {
-    margin: auto;
-    padding: 20px;
-    display: inline-block;
-}
-
 main p {
     text-indent: 10px;
 }
@@ -95,6 +89,13 @@ main a {
 
 main a:hover {
     color: var(--cor4);
+}
+
+div.chico-e-alguem {
+    margin: auto;
+    display: block;
+    text-align: center;
+    padding: 20px;
 }
 
 div.video {
